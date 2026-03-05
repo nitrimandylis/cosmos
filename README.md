@@ -16,11 +16,13 @@ This is a fully interactive, space-themed 3D web experience — complete with a 
 No boilerplate was hand-edited. No components were manually wired together. The entire 900+ line React component emerged from a single prompt:
 
 ```text
-Make a fully fledged website with parallax effect and multiple animations. You are free to choose the content and topic of the website, this is a tech demo so try to show your capability. Use HTML + CSS + React + Vue.js + three.js + Javascript and following good engineering principles. Make it  CSS responsive.
-```
+Make a fully fledged website with parallax effect and multiple animations.
+You are free to choose the content and topic of the website, this is a tech demo so try to show your capability.
+Use HTML + CSS + React + Vue.js + three.js + Javascript and following good engineering principles.
+Make it  CSS responsive.
 
 Take as much time as you want
-
+```
 ---
 
 ## What is vibecoding?
