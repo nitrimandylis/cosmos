@@ -13,7 +13,13 @@
 
 This is a fully interactive, space-themed 3D web experience — complete with a live Three.js starfield, animated mission cards, real-time observatory stats, and a discoveries timeline — generated in a single session by describing the vision and letting **Claude Opus 4.6** write every line.
 
-No boilerplate was hand-edited. No components were manually wired together. The entire 900+ line React component emerged from a conversation.
+No boilerplate was hand-edited. No components were manually wired together. The entire 900+ line React component emerged from a single prompt:
+
+```text
+Make a fully fledged website with parallax effect and multiple animations. You are free to choose the content and topic of the website, this is a tech demo so try to show your capability. Use HTML + CSS + React + Vue.js + three.js + Javascript and following good engineering principles. Make it  CSS responsive.
+```
+
+Take as much time as you want
 
 ---
 
@@ -31,12 +37,12 @@ With Claude Opus 4.6, the results speak for themselves:
 
 ## Tech stack
 
-| Layer | Technology |
-|---|---|
-| UI framework | React 18 |
-| 3D rendering | Three.js |
-| Build tool | Vite |
-| AI model | Claude Opus 4.6 |
+| Layer        | Technology      |
+| ------------ | --------------- |
+| UI framework | React 18        |
+| 3D rendering | Three.js        |
+| Build tool   | Vite            |
+| AI model     | Claude Opus 4.6 |
 
 ---
 
@@ -62,4 +68,4 @@ Then open [http://localhost:5173](http://localhost:5173).
 
 ---
 
-*Generated with Claude Opus 4.6 via [Claude Code](https://claude.ai/code)*
+_Generated with Claude Opus 4.6 via [Claude Code](https://claude.ai/code)_
