@@ -51,7 +51,7 @@ With Claude Opus 4.6, the results speak for themselves:
 ## Running locally
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/nitrimandylis/cosmos.git
 cd cosmos
 npm install
 npm run dev
