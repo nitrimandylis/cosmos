@@ -1,73 +1,93 @@
-# Cosmos Observatory
+<div align="center">
 
-> A tech demo built entirely through vibecoding with **Claude Opus 4.6**.
+```
+  ██████╗ ██████╗ ███████╗███╗   ███╗ ██████╗ ███████╗
+ ██╔════╝██╔═══██╗██╔════╝████╗ ████║██╔═══██╗██╔════╝
+ ██║     ██║   ██║███████╗██╔████╔██║██║   ██║███████╗
+ ██║     ██║   ██║╚════██║██║╚██╔╝██║██║   ██║╚════██║
+ ╚██████╗╚██████╔╝███████║██║ ╚═╝ ██║╚██████╔╝███████║
+  ╚═════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚══════╝
+```
 
-![Cosmos Observatory](https://img.shields.io/badge/Built%20with-Claude%20Opus%204.6-7c3aed?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)
-![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logo=vite)
+### `OBSERVATORY // ONE PROMPT, 900+ LINES`
+
+*a 3D space tech demo vibecoded entirely by Claude Opus 4.6 — I supplied the vibe*
+
+![lines hand written](https://img.shields.io/badge/lines_hand--written-0-7c3aed?style=flat-square&labelColor=111111)
+![prompt count](https://img.shields.io/badge/prompt_count-1-7c3aed?style=flat-square&labelColor=111111)
+![model](https://img.shields.io/badge/pilot-claude_opus_4.6-b794f6?style=flat-square&labelColor=111111)
+![stars](https://img.shields.io/badge/stars-thousands_(webgl,_not_github)-b794f6?style=flat-square&labelColor=111111)
+![boilerplate](https://img.shields.io/badge/boilerplate_edited-none-7c3aed?style=flat-square&labelColor=111111)
+
+</div>
 
 ---
 
-## What is this?
+## 🔭 What is this
 
-This is a fully interactive, space-themed 3D web experience — complete with a live Three.js starfield, animated mission cards, real-time observatory stats, and a discoveries timeline — generated in a single session by describing the vision and letting **Claude Opus 4.6** write every line.
+A fully interactive space-themed 3D web experience — live Three.js starfield,
+animated mission cards, real-time observatory stats, a discoveries timeline —
+generated in a single session by describing the vision and letting
+**Claude Opus 4.6** write every line. No boilerplate hand-edited, no
+components manually wired. One React component, 900+ lines, one prompt.
 
-No boilerplate was hand-edited. No components were manually wired together. The entire 900+ line React component emerged from a single prompt:
+This is the prompt. The whole prompt. Typos included, as historical record:
 
 ```text
 Make a fully fledged website with parallax effect and multiple animations.
 You are free to choose the content and topic of the website, this is a tech demo so try to show your capability.
 Use HTML + CSS + React + Vue.js + three.js + Javascript and following good engineering principles.
-Make it  CSS responsive.
+Make it  CSS responsive.
 
 Take as much time as you want
 ```
----
 
-## What is vibecoding?
+```console
+nick@observatory:~$ telescope --status
+[✓] starfield rendering. missions animated. stats counting.
+[i] human contribution: the prompt above and the applause after.
+```
 
-Vibecoding is the practice of building software by describing what you want in natural language and letting an AI model handle the implementation. You steer with intent — the model handles syntax, structure, and wiring.
+## 🌠 The experience
 
-With Claude Opus 4.6, the results speak for themselves:
+| | feature | what it actually does |
+|---|---|---|
+| 01 | **live starfield** | Three.js WebGL canvas, thousands of animated stars, full lifecycle management |
+| 02 | **mission cards** | animated cards showcasing deep space missions |
+| 03 | **observatory stats** | live-updating counters — discoveries, light-years, active telescopes |
+| 04 | **discoveries timeline** | scrollable feed of cosmic events and findings |
 
-- **One prompt** → a complete, animated 3D React component
-- **Zero scaffolding** → production-ready JSX with inline styles and Three.js lifecycle management
-- **Natural iteration** → refinements made by describing what felt off, not by editing code
+**What is vibecoding?** Building software by describing what you want in
+natural language and letting the model handle implementation. You steer with
+intent; it handles syntax, structure, and wiring. Iteration here meant
+describing what *felt off* — never editing code.
 
----
-
-## Tech stack
-
-| Layer        | Technology      |
-| ------------ | --------------- |
-| UI framework | React 18        |
-| 3D rendering | Three.js        |
-| Build tool   | Vite            |
-| AI model     | Claude Opus 4.6 |
-
----
-
-## Running locally
+## 🚀 Run it
 
 ```bash
 git clone https://github.com/nitrimandylis/cosmos.git
 cd cosmos
 npm install
-npm run dev
+npm run dev        # → http://localhost:5173
 ```
 
-Then open [http://localhost:5173](http://localhost:5173).
+## 🔩 Under the hood
+
+| layer | tech | job |
+|---|---|---|
+| UI framework | React 18 | one mega-component: `src/CosmosObservatory.jsx` |
+| 3D rendering | Three.js | the starfield and its thousands of residents |
+| build tool | Vite | dev server and bundling |
+| AI model | Claude Opus 4.6 | wrote everything above this row |
 
 ---
 
-## The experience
+<div align="center">
 
-- **Live starfield** — Three.js WebGL canvas with thousands of animated stars
-- **Mission cards** — animated cards showcasing deep space missions
-- **Observatory stats** — live-updating counters for discoveries, light-years traveled, and active telescopes
-- **Discoveries timeline** — scrollable feed of cosmic events and findings
+**[Nick Trimandylis](https://github.com/nitrimandylis)**
 
----
+`THE UNIVERSE WAS GENERATED IN ONE SESSION. SO WAS THIS.`
 
-_Generated with Claude Opus 4.6 via [Claude Code](https://claude.ai/code)_
+*built with Claude Opus 4.6 via [Claude Code](https://claude.ai/code)*
+
+</div>
