@@ -19,6 +19,8 @@
 ![stars](https://img.shields.io/badge/stars-thousands_(webgl,_not_github)-b794f6?style=flat-square&labelColor=111111)
 ![boilerplate](https://img.shields.io/badge/boilerplate_edited-none-7c3aed?style=flat-square&labelColor=111111)
 
+[![cosmos: mapping the unknown, over a webgl starfield and a couple of orbits. no telescopes involved](.github/assets/screenshot.jpg)](https://cosmos-fawn.vercel.app)
+
 </div>
 
 ---
